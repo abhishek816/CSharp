@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace patternprinting
+namespace patternprintingM
 {
     class Program
     {
         public static void Main()
         {
             int n;
-            Console.WriteLine("Enter a limit:");
+            Console.WriteLine("Enter the limit:");
             n = Convert.ToInt32(Console.ReadLine());
             for(int i=1;i<=n;i++)
             {
-                for (int j = 1; j <= i; j++)
+                for(int j=1;j<=i;j++)
                 {
-                    Console.Write("*");
+                    Console.Write("M" + " ");
                 }
                 Console.WriteLine();
             }
