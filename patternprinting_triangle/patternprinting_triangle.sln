@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35026.282
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "patternprinting_triangle", "patternprinting_triangle\patternprinting_triangle.csproj", "{18252A85-3126-4C1E-BE7F-FD6ADA6E7D22}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18252A85-3126-4C1E-BE7F-FD6ADA6E7D22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18252A85-3126-4C1E-BE7F-FD6ADA6E7D22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18252A85-3126-4C1E-BE7F-FD6ADA6E7D22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18252A85-3126-4C1E-BE7F-FD6ADA6E7D22}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0563868D-9EC8-407B-8E17-A89C12A515BD}
+	EndGlobalSection
+EndGlobal
