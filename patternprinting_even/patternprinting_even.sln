@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35026.282
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "patternprinting_even", "patternprinting_even\patternprinting_even.csproj", "{3FD25EF9-9CE5-4160-A974-A7A725E6D62D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3FD25EF9-9CE5-4160-A974-A7A725E6D62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD25EF9-9CE5-4160-A974-A7A725E6D62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD25EF9-9CE5-4160-A974-A7A725E6D62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD25EF9-9CE5-4160-A974-A7A725E6D62D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F62AAAA7-A4DC-4286-A784-C98DC3C7CA92}
+	EndGlobalSection
+EndGlobal
