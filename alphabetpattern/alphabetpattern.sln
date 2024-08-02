@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35026.282
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "alphabetpattern", "alphabetpattern\alphabetpattern.csproj", "{588F0F1F-F68D-4D7C-953F-10F698316336}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{588F0F1F-F68D-4D7C-953F-10F698316336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588F0F1F-F68D-4D7C-953F-10F698316336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588F0F1F-F68D-4D7C-953F-10F698316336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588F0F1F-F68D-4D7C-953F-10F698316336}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {754BEE9E-4C11-4272-A12A-A6DBBA2E57BC}
+	EndGlobalSection
+EndGlobal
