@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.35026.282
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "patternprinting_j", "patternprinting_j\patternprinting_j.csproj", "{07DC32B2-BF50-43B5-BEE3-F39E060998E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07DC32B2-BF50-43B5-BEE3-F39E060998E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07DC32B2-BF50-43B5-BEE3-F39E060998E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07DC32B2-BF50-43B5-BEE3-F39E060998E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07DC32B2-BF50-43B5-BEE3-F39E060998E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD5CCED4-AD08-42BC-922C-09FB8CF6A2A0}
+	EndGlobalSection
+EndGlobal
