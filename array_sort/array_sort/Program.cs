@@ -19,9 +19,9 @@ namespace array_sort
             {
                 ar[i] = Convert.ToInt32(Console.ReadLine());
             }
-            for (int i=0;i<n;i++)
+            for (int i=0;i<n;i++)//array edkkan
             {
-                for(int j=i+1;j<n;j++)
+                for(int j=i+1;j<n;j++)//to check between numbers
                 {
                     if(ar[i]>ar[j])
                     {
