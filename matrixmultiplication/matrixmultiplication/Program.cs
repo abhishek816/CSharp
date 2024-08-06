@@ -49,17 +49,28 @@ namespace matrixmultiplication
             Console.WriteLine("Product of matrix is:");
             for (int i = 0; i < r1; i++)
             {
-                for (int j = 0; j < r2; j++)
+                for (int j = 0; j < c2; j++)
                 {
-                    for (int k = 0; k < r1; k++)
+                    for (int k = 0; k < r2; k++)
                     {
                         C[i, j] =C[i,j]+ A[i,k] * B[k, j];
-                        Console.Write(C[i, j] + " ");
+                        
+                        
                     }
+                    
                 }
 
+                
+            }
+            for(int i=0;i<r1;i++)
+            {
+                for(int j=0;j<c2;j++)
+                {
+                    Console.Write(C[i, j] + " ");
+                }
                 Console.WriteLine();
             }
+            
             Console.ReadKey();
         }
     }
