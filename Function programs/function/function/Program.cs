@@ -12,10 +12,15 @@ namespace function
         {
             Console.WriteLine("Normal function");
         }
+        public static void afunc()
+        {
+            Console.WriteLine("Static function");
+        }
         public static void Main()
         {
             A ob = new A();
             ob.normal();
+            afunc();
             Console.ReadKey();
         }
 
