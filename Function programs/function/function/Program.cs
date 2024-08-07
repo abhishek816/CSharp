@@ -12,7 +12,7 @@ namespace function
         {
             Console.WriteLine("Normal function");
         }
-        public static void afunc()
+        public static void afunction()
         {
             Console.WriteLine("Static function");
         }
@@ -20,7 +20,7 @@ namespace function
         {
             A ob = new A();
             ob.normal();
-            afunc();
+            afunction();
             Console.ReadKey();
         }
 
