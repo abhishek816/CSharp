@@ -22,7 +22,7 @@ namespace switch_statement
                     break;
                 case 3:
                     Console.WriteLine("Tuesday");
-                    break;
+                    goto case 1;
                 default:Console.WriteLine("Invalid");
                     break;
             }
