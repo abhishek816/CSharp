@@ -12,12 +12,13 @@ namespace eception_handling
         {
             try
             {
-                int a, b;
-                Console.WriteLine("Enter two numbers:");
-                a = Convert.ToInt32(Console.ReadLine());
-                b= Convert.ToInt32(Console.ReadLine());
-                
-                Console.WriteLine("Quotient is:{0}", a / b);
+                //int a, b;
+                //Console.WriteLine("Enter two numbers:");
+                //a = Convert.ToInt32(Console.ReadLine());
+                //b= Convert.ToInt32(Console.ReadLine());
+
+                //Console.WriteLine("Quotient is:{0}", a / b);
+                check(-12);
             }
             catch (Exception ex)
 
@@ -37,7 +38,18 @@ namespace eception_handling
                 Console.WriteLine("finally block");
             }
             Console.ReadKey();
-
         }
+        public static void check(int ag)
+            {
+                if (ag <= 0)
+                {
+                    throw new ArgumentOutOfRangeException("Age cannot be negative");
+                }
+            
+        }
+        
+          
+
+        
     }
 }
