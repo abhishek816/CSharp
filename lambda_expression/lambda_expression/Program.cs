@@ -24,6 +24,13 @@ namespace lambda_expression
                 Console.Write("{0} ", value);
             }
             Console.WriteLine();
+            //divisible by 3
+            var divby3 = numbers.FindAll(x => (x % 3) == 0);
+            Console.Write("Numbers divisible by 3:");
+            foreach (var value in divby3)
+            {
+                Console.Write("{0} ", value);
+            }
             Console.ReadKey();
         }
     }
