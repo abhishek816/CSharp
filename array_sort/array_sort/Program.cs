@@ -10,7 +10,7 @@ namespace array_sort
     {
        public static void Main()
         {
-            int n,t;
+            int n,t,se=0;
             Console.WriteLine("Enter the Limit:");
             n = Convert.ToInt32(Console.ReadLine());
             int[] ar = new int[n];
@@ -35,6 +35,27 @@ namespace array_sort
             for(int i=0;i<n;i++)
             {
                 Console.WriteLine(ar[i]);
+            }
+            List<int> item = new List<int>();
+            List<int> pos = new List<int>();
+            Console.WriteLine("Enter the element to search:");
+            se = Convert.ToInt32(Console.ReadLine());
+            for(int i=0;i<n;i++)
+            {
+                if (se == ar[i])
+                {
+                    item.Add(ar[i]);
+                    pos.Add(i);
+                }
+                else
+                {
+                    Console.WriteLine("Number not found.");
+                }
+            }
+            Console.WriteLine("The items are:");
+            for(int d = 0; d < item.Count; d++)
+            {
+                Console.WriteLine(item[d] + "," + pos[d]);
             }
             Console.ReadKey();
         }
