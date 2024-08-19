@@ -47,10 +47,8 @@ namespace array_sort
                     item.Add(ar[i]);
                     pos.Add(i);
                 }
-                else
-                {
-                    Console.WriteLine("Number not found.");
-                }
+               
+                
             }
             Console.WriteLine("The items are:");
             for(int d = 0; d < item.Count; d++)
